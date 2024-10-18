@@ -17,9 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5CZ-cb-oBu">
-                                <rect key="frame" x="16" y="450.66666666666669" width="398" height="56"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgr-GP-qYN">
+                                <rect key="frame" x="97" y="437" width="236" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -27,9 +27,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5CZ-cb-oBu" secondAttribute="trailing" constant="16" id="25m-C4-Zs1"/>
-                            <constraint firstItem="5CZ-cb-oBu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c9e-Mr-ync"/>
-                            <constraint firstItem="5CZ-cb-oBu" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="zTx-bX-JtB"/>
+                            <constraint firstItem="lgr-GP-qYN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="03r-gG-RAy"/>
+                            <constraint firstItem="lgr-GP-qYN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DCg-Zd-uau"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,7 +39,7 @@
     </scenes>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
